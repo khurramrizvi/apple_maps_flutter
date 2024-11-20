@@ -36,6 +36,7 @@ class MoveCameraState extends State<MoveCamera> {
         children: <Widget>[
           Expanded(
             child: AppleMap(
+              mapType: MapType.hybrid,
               onMapCreated: _onMapCreated,
               initialCameraPosition: const CameraPosition(
                 target: LatLng(0.0, 0.0),

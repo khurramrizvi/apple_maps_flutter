@@ -27,6 +27,8 @@ class FlutterMapView: MKMapView, UIGestureRecognizerDelegate {
         MKMapType.standard,
         MKMapType.satellite,
         MKMapType.hybrid,
+        MKMapType.hybridFlyover,
+        MKMapType.satelliteFlyover,
     ]
     
     let userTrackingModes: Array<MKUserTrackingMode> = [
